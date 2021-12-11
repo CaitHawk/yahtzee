@@ -90,7 +90,7 @@ class ScoreTable extends Component {
               />
               <RuleRow
                 name="Yahtzee"
-                core={scores.yahtzee}
+                score={scores.yahtzee}
                 doScore={evt => doScore("yahtzee", yahtzee.evalRoll)}
                 description={yahtzee.description}
               />
